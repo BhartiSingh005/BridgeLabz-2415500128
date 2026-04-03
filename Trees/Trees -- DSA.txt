@@ -1,0 +1,32 @@
+Trees: It is a non-linear hierarchical data structure which consist of nodes connected by edges.
+If there are 10 nodes then, 9 edges will be there.
+Number of edges=number of nodes - 1.
+Each and every tree have only one root node.
+Edge: The communication between two nodes.
+There is one and only one path between two vertices(nodes).
+Parent nodes : The nodes which have children 
+All modes are child nodes except parent node.
+Siblings : The nodes with same parent.
+Degree of node : The node have how many children.
+Degree of tree : The highest degree of nodes.
+Leaf node : The nodes which have no children.
+Internal Node (Parent Node ) : The node which have at least one child( all nodes are internal nodes except leaf nodes )
+Levels : Each step of a tree from top to bottom ( generation in a tree.. Starting from 0 to root node. )
+Height of node : Highest number of edges from the point/node to leaf node
+Height of tree : Highest number of edges from root node to last leaf node ( longest path )
+Depth of node : Highest number of levels from node to root node.
+Depth of tree : Highest number of edges from leaf to root node.
+Sub-Tree : Subset of a tree. Every child is considered as sub-tree.
+Types of Trees : 1. General Tree
+                 2. Binary Tree --> Each parent have at most 2 children
+                 3. Binary Search Tree( BST ) --> (left < root < right){values}
+                 4. AVL Tree
+                 5. Red-Black Tree
+                 6. N-ary Tree
+Traversal: BFS 
+           DFS :
+               preorder(root, left,right)
+               inorder
+               postorder
+
+
